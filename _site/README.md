@@ -1,2 +1,0 @@
-# Akash
-My Github Page
