@@ -125,7 +125,7 @@ h3 {
   height: 100vh;
 }
 #intro.section {
-  background: url(../../assets/img/akash-about-2.jpg) no-repeat top
+  background: url(../../assets/img/home1.jpg) no-repeat top
     center/cover;
   position: relative;
 }
@@ -149,7 +149,7 @@ h3 {
   padding: 0 10px;
 }
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(1, 1, 1, 0.15);
   height: 100%;
   left: 0;
   position: absolute;
@@ -303,10 +303,10 @@ small {
   color: #666 !important;
 }
 .teal-text {
-  color: #008073 !important;
+  color: #2149a1 !important;
 }
 .teal {
-  background-color: #008073 !important;
+  background-color: #2149a1 !important;
 }
 /* @media (min-width: 1200px) {
   #experience .container {
