@@ -1,25 +1,78 @@
-body {
-  color: #333;
-  font-size: 16px;
-  font-family: cursive;
+:root {
+  --font-color: #111;
+  --bg-primary: #7843E9;
+  --bg-primary: #7843E9;
+  --bg-gray: #666;
 }
 
-main {
-  background: url(../../assets/img/bg.png) repeat;
+.bg-gray {
+  background-color: var(--bg-gray);
+}
+.btn {
+  border: none !important;
 }
 
-h1 {
-  font-weight: bold !important;
-}
-.fa {
-  font-size: 12rem;
-  color: #fca700;
-  padding-right: 20px;
+.btn-primary,
+.bg-primary {
+  background-color: var(--bg-primary) !important;
 }
 
-.under-construction {
+.navbar-brand,
+.nav-link {
+  color: var(--font-color) !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--bg-primary) !important;
+}
+
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 2rem !important;
+  padding-left: 2rem !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: var(--bs-primary) !important;
+}
+
+.home-intro {
+  background-image: url('../img/common-bg.svg');
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+}
+
+.heading-btn {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.home-intro .home-intro-main .heading {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.home-intro .home-intro-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ls-3 {
+  letter-spacing: 1px;
+}
+
+.home-intro-instruction {
+  font-size: 1.2rem;
 }
