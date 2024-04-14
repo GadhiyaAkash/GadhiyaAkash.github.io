@@ -16,6 +16,12 @@ body {
 
 .btn {
   border: none !important;
+  padding-left: 5rem !important;
+  padding-right: 5rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
 }
 
 .btn-primary,
@@ -28,7 +34,8 @@ body {
   color: var(--font-color) !important;
 }
 
-.navbar-nav .nav-link.active {
+.navbar-nav .nav-link.active,
+.link {
   color: var(--bg-primary) !important;
 }
 
@@ -43,12 +50,11 @@ body {
   text-transform: uppercase;
 }
 
-a:hover {
-  color: var(--bs-primary) !important;
+.nav-link:hover {
+  color: var(--bg-primary) !important;
 }
 
-.home-intro {
-  background-image: url('../img/common-bg.svg');
+.home-bg {
   height: 100vh;
   position: relative;
 }
@@ -57,21 +63,12 @@ a:hover {
   background-image: url('../img/common-bg.svg');
 }
 
-.heading-btn {
-  padding-left: 5rem;
-  padding-right: 5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.home-intro .home-intro-main .heading {
-  font-size: 4rem;
+.home-intro-main .heading {
+  font-size: 3rem;
   font-weight: 800;
 }
 
-.home-intro .home-intro-main {
+.home-intro-main {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -79,11 +76,7 @@ a:hover {
   text-align: center;
 }
 
-.ls-3 {
-  letter-spacing: 1px;
-}
-
-.project-section {
+.projects {
   background-color: #fbfbfb;
 }
 
