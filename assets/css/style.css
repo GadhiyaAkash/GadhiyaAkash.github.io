@@ -5,9 +5,15 @@
   --bg-gray: #666;
 }
 
+body {
+  font-size: 1.2rem !important;
+  letter-spacing: 1px !important;
+}
+
 .bg-gray {
   background-color: var(--bg-gray);
 }
+
 .btn {
   border: none !important;
 }
@@ -47,6 +53,10 @@ a:hover {
   position: relative;
 }
 
+.common-bg {
+  background-image: url('../img/common-bg.svg');
+}
+
 .heading-btn {
   padding-left: 5rem;
   padding-right: 5rem;
@@ -73,6 +83,24 @@ a:hover {
   letter-spacing: 1px;
 }
 
-.home-intro-instruction {
-  font-size: 1.2rem;
+.project-section {
+  background-color: #fbfbfb;
+}
+
+.fc-width {
+  width: fit-content;
+}
+
+.form-div {
+  padding: 2rem;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+}
+.copyright {
+  font-size: 0.75rem;
 }
