@@ -60,7 +60,7 @@ body {
 }
 
 .common-bg {
-  background-image: url('../img/common-bg.svg');
+  background: linear-gradient(rgba(245,245,245,.8), rgba(245,245,245,.8)), url('../img/common-bg.svg');
 }
 
 .home-intro-main .heading {
@@ -76,6 +76,10 @@ body {
   text-align: center;
 }
 
+.sub-title {
+  max-width: 50rem;
+  margin: auto;
+}
 .projects {
   background-color: #fbfbfb;
 }
